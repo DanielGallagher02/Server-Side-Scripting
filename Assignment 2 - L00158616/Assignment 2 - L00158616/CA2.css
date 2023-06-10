@@ -1,0 +1,44 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+  
+td, th {
+    border: 1px solid #7d0cc9;
+    text-align: left;
+    padding: 8px;
+    
+}
+
+th {
+    background-color: red;
+}
+  
+tr:nth-child(even) {
+    background-color: #7dd816;
+}
+
+tr:nth-child(odd) {
+    background-color: #d1e70d;
+}
+
+h2{
+    text-align: center;
+}
+
+.container { 
+    height: 200px;
+    position: relative;
+  }
+  
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+body {background-color: coral;}  
